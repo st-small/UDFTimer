@@ -7,23 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		52950FBF273134130050514B /* Date + extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52950FBE273134130050514B /* Date + extensions.swift */; };
 		52C3E42A2709EA98000B7FAC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C3E4292709EA98000B7FAC /* AppDelegate.swift */; };
 		52C3E42C2709EA98000B7FAC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C3E42B2709EA98000B7FAC /* SceneDelegate.swift */; };
-		52C3E42E2709EA98000B7FAC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C3E42D2709EA98000B7FAC /* ViewController.swift */; };
-		52C3E4312709EA98000B7FAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52C3E42F2709EA98000B7FAC /* Main.storyboard */; };
 		52C3E4332709EA9A000B7FAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52C3E4322709EA9A000B7FAC /* Assets.xcassets */; };
 		52C3E4362709EA9A000B7FAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52C3E4342709EA9A000B7FAC /* LaunchScreen.storyboard */; };
+		52C3E43F2709EB4D000B7FAC /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C3E43D2709EB4D000B7FAC /* TimerViewController.swift */; };
+		52C3E4402709EB4D000B7FAC /* TimerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52C3E43E2709EB4D000B7FAC /* TimerViewController.xib */; };
+		52C3E4432709EBCE000B7FAC /* TimerViewControllerOperator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C3E4422709EBCE000B7FAC /* TimerViewControllerOperator.swift */; };
+		52C3E4462709EC09000B7FAC /* Command.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C3E4452709EC09000B7FAC /* Command.swift */; };
+		52C3E4492709EDD3000B7FAC /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C3E4482709EDD3000B7FAC /* State.swift */; };
+		52C3E44B2709EDD9000B7FAC /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C3E44A2709EDD9000B7FAC /* Store.swift */; };
+		52FB97AA271F2D570041FC4D /* UDFTimerSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FB97A9271F2D570041FC4D /* UDFTimerSampleTests.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		52FB97AB271F2D570041FC4D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52C3E41E2709EA98000B7FAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52C3E4252709EA98000B7FAC;
+			remoteInfo = UDFTimerSample;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		52950FBE273134130050514B /* Date + extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date + extensions.swift"; sourceTree = "<group>"; };
 		52C3E4262709EA98000B7FAC /* UDFTimerSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UDFTimerSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52C3E4292709EA98000B7FAC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		52C3E42B2709EA98000B7FAC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		52C3E42D2709EA98000B7FAC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		52C3E4302709EA98000B7FAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		52C3E4322709EA9A000B7FAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52C3E4352709EA9A000B7FAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52C3E4372709EA9A000B7FAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52C3E43D2709EB4D000B7FAC /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
+		52C3E43E2709EB4D000B7FAC /* TimerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TimerViewController.xib; sourceTree = "<group>"; };
+		52C3E4422709EBCE000B7FAC /* TimerViewControllerOperator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewControllerOperator.swift; sourceTree = "<group>"; };
+		52C3E4452709EC09000B7FAC /* Command.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Command.swift; sourceTree = "<group>"; };
+		52C3E4482709EDD3000B7FAC /* State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = State.swift; sourceTree = "<group>"; };
+		52C3E44A2709EDD9000B7FAC /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		52FB97A7271F2D570041FC4D /* UDFTimerSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UDFTimerSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		52FB97A9271F2D570041FC4D /* UDFTimerSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UDFTimerSampleTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,13 +57,42 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		52FB97A4271F2D570041FC4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		52950FBC273133F00050514B /* Environment */ = {
+			isa = PBXGroup;
+			children = (
+				52C3E4322709EA9A000B7FAC /* Assets.xcassets */,
+				52C3E4342709EA9A000B7FAC /* LaunchScreen.storyboard */,
+				52C3E4372709EA9A000B7FAC /* Info.plist */,
+				52C3E4292709EA98000B7FAC /* AppDelegate.swift */,
+				52C3E42B2709EA98000B7FAC /* SceneDelegate.swift */,
+			);
+			path = Environment;
+			sourceTree = "<group>";
+		};
+		52950FBD273133FF0050514B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				52950FBE273134130050514B /* Date + extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		52C3E41D2709EA98000B7FAC = {
 			isa = PBXGroup;
 			children = (
+				52C3E4442709EBFB000B7FAC /* Foundation */,
 				52C3E4282709EA98000B7FAC /* UDFTimerSample */,
+				52FB97A8271F2D570041FC4D /* UDFTimerSampleTests */,
 				52C3E4272709EA98000B7FAC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				52C3E4262709EA98000B7FAC /* UDFTimerSample.app */,
+				52FB97A7271F2D570041FC4D /* UDFTimerSampleTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,15 +109,47 @@
 		52C3E4282709EA98000B7FAC /* UDFTimerSample */ = {
 			isa = PBXGroup;
 			children = (
-				52C3E4292709EA98000B7FAC /* AppDelegate.swift */,
-				52C3E42B2709EA98000B7FAC /* SceneDelegate.swift */,
-				52C3E42D2709EA98000B7FAC /* ViewController.swift */,
-				52C3E42F2709EA98000B7FAC /* Main.storyboard */,
-				52C3E4322709EA9A000B7FAC /* Assets.xcassets */,
-				52C3E4342709EA9A000B7FAC /* LaunchScreen.storyboard */,
-				52C3E4372709EA9A000B7FAC /* Info.plist */,
+				52950FBC273133F00050514B /* Environment */,
+				52C3E4472709EDCA000B7FAC /* Core */,
+				52C3E4412709EBB5000B7FAC /* Timer */,
+				52950FBD273133FF0050514B /* Extensions */,
 			);
 			path = UDFTimerSample;
+			sourceTree = "<group>";
+		};
+		52C3E4412709EBB5000B7FAC /* Timer */ = {
+			isa = PBXGroup;
+			children = (
+				52C3E43D2709EB4D000B7FAC /* TimerViewController.swift */,
+				52C3E43E2709EB4D000B7FAC /* TimerViewController.xib */,
+				52C3E4422709EBCE000B7FAC /* TimerViewControllerOperator.swift */,
+			);
+			path = Timer;
+			sourceTree = "<group>";
+		};
+		52C3E4442709EBFB000B7FAC /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				52C3E4452709EC09000B7FAC /* Command.swift */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		52C3E4472709EDCA000B7FAC /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				52C3E4482709EDD3000B7FAC /* State.swift */,
+				52C3E44A2709EDD9000B7FAC /* Store.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		52FB97A8271F2D570041FC4D /* UDFTimerSampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				52FB97A9271F2D570041FC4D /* UDFTimerSampleTests.swift */,
+			);
+			path = UDFTimerSampleTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -87,6 +172,24 @@
 			productReference = 52C3E4262709EA98000B7FAC /* UDFTimerSample.app */;
 			productType = "com.apple.product-type.application";
 		};
+		52FB97A6271F2D570041FC4D /* UDFTimerSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52FB97AF271F2D570041FC4D /* Build configuration list for PBXNativeTarget "UDFTimerSampleTests" */;
+			buildPhases = (
+				52FB97A3271F2D570041FC4D /* Sources */,
+				52FB97A4271F2D570041FC4D /* Frameworks */,
+				52FB97A5271F2D570041FC4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52FB97AC271F2D570041FC4D /* PBXTargetDependency */,
+			);
+			name = UDFTimerSampleTests;
+			productName = UDFTimerSampleTests;
+			productReference = 52FB97A7271F2D570041FC4D /* UDFTimerSampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -99,6 +202,10 @@
 				TargetAttributes = {
 					52C3E4252709EA98000B7FAC = {
 						CreatedOnToolsVersion = 13.0;
+					};
+					52FB97A6271F2D570041FC4D = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 52C3E4252709EA98000B7FAC;
 					};
 				};
 			};
@@ -116,6 +223,7 @@
 			projectRoot = "";
 			targets = (
 				52C3E4252709EA98000B7FAC /* UDFTimerSample */,
+				52FB97A6271F2D570041FC4D /* UDFTimerSampleTests */,
 			);
 		};
 /* End PBXProject section */
@@ -125,9 +233,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52C3E4402709EB4D000B7FAC /* TimerViewController.xib in Resources */,
 				52C3E4362709EA9A000B7FAC /* LaunchScreen.storyboard in Resources */,
 				52C3E4332709EA9A000B7FAC /* Assets.xcassets in Resources */,
-				52C3E4312709EA98000B7FAC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52FB97A5271F2D570041FC4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +253,36 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52C3E42E2709EA98000B7FAC /* ViewController.swift in Sources */,
+				52C3E44B2709EDD9000B7FAC /* Store.swift in Sources */,
+				52C3E4432709EBCE000B7FAC /* TimerViewControllerOperator.swift in Sources */,
 				52C3E42A2709EA98000B7FAC /* AppDelegate.swift in Sources */,
+				52950FBF273134130050514B /* Date + extensions.swift in Sources */,
+				52C3E43F2709EB4D000B7FAC /* TimerViewController.swift in Sources */,
+				52C3E4462709EC09000B7FAC /* Command.swift in Sources */,
 				52C3E42C2709EA98000B7FAC /* SceneDelegate.swift in Sources */,
+				52C3E4492709EDD3000B7FAC /* State.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52FB97A3271F2D570041FC4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52FB97AA271F2D570041FC4D /* UDFTimerSampleTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		52C3E42F2709EA98000B7FAC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				52C3E4302709EA98000B7FAC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
+/* Begin PBXTargetDependency section */
+		52FB97AC271F2D570041FC4D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52C3E4252709EA98000B7FAC /* UDFTimerSample */;
+			targetProxy = 52FB97AB271F2D570041FC4D /* PBXContainerItemProxy */;
 		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
 		52C3E4342709EA9A000B7FAC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -291,12 +419,12 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3PTYV272Z4;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = UDFTimerSample/Info.plist;
+				INFOPLIST_FILE = UDFTimerSample/Environment/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -306,7 +434,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -319,12 +447,12 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3PTYV272Z4;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = UDFTimerSample/Info.plist;
+				INFOPLIST_FILE = UDFTimerSample/Environment/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -334,7 +462,53 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		52FB97AD271F2D570041FC4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3PTYV272Z4;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pro.richpeach.ssh.UDFTimerSampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UDFTimerSample.app/UDFTimerSample";
+			};
+			name = Debug;
+		};
+		52FB97AE271F2D570041FC4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3PTYV272Z4;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pro.richpeach.ssh.UDFTimerSampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UDFTimerSample.app/UDFTimerSample";
 			};
 			name = Release;
 		};
@@ -355,6 +529,15 @@
 			buildConfigurations = (
 				52C3E43B2709EA9A000B7FAC /* Debug */,
 				52C3E43C2709EA9A000B7FAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52FB97AF271F2D570041FC4D /* Build configuration list for PBXNativeTarget "UDFTimerSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52FB97AD271F2D570041FC4D /* Debug */,
+				52FB97AE271F2D570041FC4D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

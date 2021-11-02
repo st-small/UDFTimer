@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TimerViewController" customModule="UDFTimerSample" customModuleProvider="target">
+            <connections>
+                <outlet property="actionButton" destination="pjq-xW-3BD" id="iL3-BF-osX"/>
+                <outlet property="resetButton" destination="dJw-p0-ogM" id="tvK-ax-EEZ"/>
+                <outlet property="timer" destination="5yw-Pk-58m" id="7mm-4N-vBq"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5yw-Pk-58m">
+                    <rect key="frame" x="160" y="424" width="94" height="48"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <stackView opaque="NO" contentMode="scaleToFill" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="18U-gK-bua">
+                    <rect key="frame" x="20" y="728" width="374" height="44"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dJw-p0-ogM" userLabel="reset">
+                            <rect key="frame" x="0.0" y="0.0" width="172" height="44"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="44" id="VjL-TZ-DmT"/>
+                            </constraints>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="plain" title="Button">
+                                <fontDescription key="titleFontDescription" type="system" pointSize="25"/>
+                            </buttonConfiguration>
+                            <connections>
+                                <action selector="resetTimer" destination="-1" eventType="touchUpInside" id="mX0-da-3Nx"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pjq-xW-3BD" userLabel="action">
+                            <rect key="frame" x="202" y="0.0" width="172" height="44"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="44" id="5If-1t-g0Z"/>
+                            </constraints>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="plain" title="Button">
+                                <fontDescription key="titleFontDescription" type="system" pointSize="25"/>
+                            </buttonConfiguration>
+                            <connections>
+                                <action selector="actionTimerTapped" destination="-1" eventType="touchUpInside" id="b3e-gX-Uaq"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                </stackView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="18U-gK-bua" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="SQz-ho-TcY"/>
+                <constraint firstItem="5yw-Pk-58m" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="aAg-L3-onb"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="18U-gK-bua" secondAttribute="bottom" constant="90" id="juD-nm-HEk"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="18U-gK-bua" secondAttribute="trailing" constant="20" id="nWe-AX-CLX"/>
+                <constraint firstItem="5yw-Pk-58m" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="y97-85-YCp"/>
+            </constraints>
+            <point key="canvasLocation" x="139" y="114"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
